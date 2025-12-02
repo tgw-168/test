@@ -14,8 +14,7 @@
 <script>
 
 async function fetchData() {
-  const response = await fetch('https://sheets.googleapis.com/v4/spreadsheets/18nkmPFn8X5aBAD9MCGc3Ad2FMLrdSpYLtfI-3lJUMKA/values/sheet01?key=AIzaSyC7nzRxlKe682Yt40D4B8FPwqtGxQrS_Vo
-');
+  const response = await fetch('https://sheets.googleapis.com/v4/spreadsheets/18nkmPFn8X5aBAD9MCGc3Ad2FMLrdSpYLtfI-3lJUMKA/values/sheet01?key=AIzaSyC7nzRxlKe682Yt40D4B8FPwqtGxQrS_Vo');
   if (!response.ok) {
     throw new Error('データの取得に失敗しました');
   }
